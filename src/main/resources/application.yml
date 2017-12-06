@@ -4,7 +4,7 @@ server:
 # DATASOURCE  
 jdbc:  
     driverClassName: com.mysql.jdbc.Driver
-    url: *********  
+    url: jdbc:mysql://rdsh1i1dvcr6672x9q8u.mysql.rds.aliyuncs.com/tdafu?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull  
     username: *********
     password: *********
 # MYBATIS
