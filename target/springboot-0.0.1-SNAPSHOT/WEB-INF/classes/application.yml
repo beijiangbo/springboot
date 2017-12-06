@@ -1,0 +1,23 @@
+# DATASOURCE  
+jdbc:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rdsh1i1dvcr6672x9q8u.mysql.rds.aliyuncs.com/tdafu?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull  
+    username: tdafu
+    password: tdafu_e559d841
+# MYBATIS
+mybatis: 
+    # 配置mapper的扫描
+    mapperLocations: classpath:mappers/*.xml
+    # 配置类型别名
+    typeAliasesPackage: com.springboot.*.entity
+    # 加载全局的配置文件
+    configLocation: classpath:mybatis-config.xml
+# LOGGING  
+logging: 
+    level:  
+       com.ibatis:DEBUG
+# JSP
+mvc:
+    view:
+       prefix: /WEB-INF/views/
+       suffix: .jsp

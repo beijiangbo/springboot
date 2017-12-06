@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/mybatis-generator.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/views/index.jsp=UTF-8
+encoding//src/main/webapp/static/css/admin.css=UTF-8
+encoding//src/main/webapp/static/css/amazeui.css=UTF-8
+encoding//src/main/webapp/static/css/common.css=UTF-8
+encoding//src/main/webapp/template/goods/add.html=UTF-8
+encoding//src/main/webapp/template/goods/main.html=UTF-8
+encoding//src/main/webapp/template/goods/type.html=UTF-8
+encoding//src/main/webapp/template/home/main.html=UTF-8
+encoding//src/main/webapp/template/order/order.html=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8

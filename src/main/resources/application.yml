@@ -1,0 +1,39 @@
+#SERVER
+server: 
+    port: 8095
+# DATASOURCE  
+jdbc:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: *********  
+    username: *********
+    password: *********
+# MYBATIS
+mybatis: 
+    # 配置mapper的扫描
+    mapperLocations: classpath:mappers/*.xml
+    # 配置类型别名
+    typeAliasesPackage: com.springboot.*.entity
+    # 加载全局的配置文件
+    configLocation: classpath:mybatis-config.xml
+# LOGGING  
+logging: 
+    level:  
+       com.ibatis:DEBUG
+# JSP
+spring: 
+    mvc:
+       view:
+           prefix: /WEB-INF/views/
+           suffix: .jsp
+# REDIS 
+    redis: 
+        database: 3
+        host: *********
+        port: 6379
+        password: *********
+        timeout: 0
+        pool:
+            max-idle: 100
+            min-idle: 1
+            max-active: 1000
+            max-wait: -1
